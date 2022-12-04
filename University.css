@@ -1,0 +1,35 @@
+*{ 
+margin: 0;
+padding: 0;
+}
+li {
+    list-style-type: none; 
+   }
+
+nav{
+    width: max-content;
+    height:max-content;
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.list-item{
+    list-style-type: none;
+    font-size: 20px;
+    
+    
+}
+.list-item:hover{
+    color:aqua ;
+    border-bottom: 2px;
+    border-bottom: 2px solid aqua;
+}
+.img{ 
+    padding: 10px;
+}
